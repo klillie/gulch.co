@@ -10,7 +10,7 @@ html {
 
 body {
   padding-top: 60px;
-  background-color: #a9ba9d  ;
+  background-color: #c0d0f0 ;
 }
 
 section {
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 1.4em;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
@@ -59,6 +59,7 @@ h5{
   color: #336699;
 
 }
+
 
 p {
   font-size: 1.1em;
@@ -87,6 +88,8 @@ footer {
   padding-top: 5px;
   border-top: 1px solid $grayMediumLight;
   color: $grayLight;
+
+
  a {
   color: #555;
 	&:hover {
@@ -95,6 +98,8 @@ footer {
 }
 small {
   float: left;
+  margin-left: 70px;
+  text-align: center;
 }
 
 ul {
@@ -103,6 +108,7 @@ ul {
  	li {
   		float: left;
   		margin-left: 10px;
+      text-align: center;
 		}
 	}
 }
