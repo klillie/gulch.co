@@ -32,4 +32,11 @@ describe "Static pages" do
     it { should have_content('Contact') }
     it { should have_title(full_title('Contact')) }
   end
+
+  describe "Product page" do
+    before { visit product_path }
+
+    it { should have_content('Product') }
+    it { should have_title(full_title('Product')) }
+  end
 end
